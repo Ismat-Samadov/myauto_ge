@@ -1,3 +1,22 @@
 .claude
 __pycache__
 *.pyc
+
+# Dataset — too large for Git (540 MB)
+# Download from Kaggle: https://www.kaggle.com/datasets/ismetsemedov/myauto
+data/
+*.csv
+*.parquet
+*.feather
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Jupyter
+.ipynb_checkpoints/
